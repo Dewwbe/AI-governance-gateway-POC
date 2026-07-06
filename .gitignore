@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.env
+backend/.env
+backend/data/usage-events.json
+.DS_Store
