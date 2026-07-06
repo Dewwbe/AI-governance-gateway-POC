@@ -2,6 +2,17 @@
 
 This is a simple proof-of-concept system for testing **OpenAI API usage capture through your own backend gateway**.
 
+## System Screenshots
+
+### Frontend Request and Response Screen
+
+![Frontend Request and Response Screen](screenshots/picone.png)
+
+### Captured Usage Events Dashboard
+
+![Captured Usage Events Dashboard](screenshots/pictwo.png)
+
+
 The key idea is: the frontend does **not** call OpenAI directly. Every AI request goes through the backend gateway, and the gateway records governance and usage details before returning the answer to the frontend.
 
 ## What this POC captures
